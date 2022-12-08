@@ -1834,7 +1834,7 @@ body.noscroll {
     line-height: 100%;
   }
   .hero__descr {
-    margin-bottom: 287px;
+    margin-bottom: 290px;
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
@@ -1853,7 +1853,7 @@ body.noscroll {
   }
   .hero__prew {
     position: absolute;
-    top: 70px;
+    top: 80px;
     width: 270px;
     height: 270px;
     background: url(../img/hero-bg-320.png) center center/contain no-repeat;
