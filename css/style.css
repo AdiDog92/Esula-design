@@ -1906,6 +1906,12 @@ body.noscroll {
   .gallery__item img:hover {
     outline: none;
   }
+  .gallery__item img:active {
+    outline: none;
+  }
+  .gallery__item img:focus-visible {
+    outline: none;
+  }
   .gallery__descr {
     font-weight: 400;
     font-size: 14px;

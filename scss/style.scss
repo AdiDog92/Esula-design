@@ -2310,6 +2310,13 @@ body.noscroll {
         &:hover {
           outline: none;
         }
+
+        &:active {
+          outline: none;
+        }
+        &:focus-visible {
+          outline: none;
+        }
       }
     }
 
