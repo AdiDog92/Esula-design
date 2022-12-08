@@ -1840,13 +1840,13 @@ body.noscroll {
     line-height: 140%;
   }
   .hero__btn {
-    padding: 14px 81px;
+    padding: 14px 70px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
   }
   .hero__btn::before {
-    padding: 14.5px 81px;
+    padding: 14.5px 70px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -1970,13 +1970,13 @@ body.noscroll {
     padding: 12px;
   }
   .prices__btn {
-    padding: 14px 72px;
+    padding: 14px 70px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
   }
   .prices__btn::before {
-    padding: 14.5px 72px;
+    padding: 14.5px 70px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
