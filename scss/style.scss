@@ -2245,8 +2245,8 @@ body.noscroll {
     &__prew {
       position: absolute;
       top: 70px;
-      width: 280px;
-      height: 280px;
+      width: 270px;
+      height: 270px;
       background: url(../img/hero-bg-320.png) center center / contain no-repeat;
     }
 
@@ -2305,6 +2305,12 @@ body.noscroll {
 
     &__item {
       filter: none;
+
+      img {
+        &:hover {
+          outline: none;
+        }
+      }
     }
 
     &__descr {
@@ -2312,6 +2318,10 @@ body.noscroll {
       font-size: 14px;
       line-height: 140%;
     }
+  }
+
+  .draggable {
+    margin-bottom: 4px;
   }
 
   .slick-dots {

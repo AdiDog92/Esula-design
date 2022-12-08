@@ -1854,8 +1854,8 @@ body.noscroll {
   .hero__prew {
     position: absolute;
     top: 70px;
-    width: 280px;
-    height: 280px;
+    width: 270px;
+    height: 270px;
     background: url(../img/hero-bg-320.png) center center/contain no-repeat;
   }
   .hero__slider {
@@ -1903,10 +1903,16 @@ body.noscroll {
   .gallery__item {
     filter: none;
   }
+  .gallery__item img:hover {
+    outline: none;
+  }
   .gallery__descr {
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
+  }
+  .draggable {
+    margin-bottom: 4px;
   }
   .slick-dots {
     display: flex;
