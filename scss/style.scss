@@ -88,6 +88,7 @@ h6 {
 }
 
 img {
+  max-width: 100%;
   -o-object-fit: cover;
   object-fit: cover
 }
@@ -137,6 +138,12 @@ body.noscroll {
   &__inner {
     align-items: center;
     justify-content: space-between
+  }
+
+  &__logo {
+    width: 60px;
+    height: 72px;
+
   }
 
   &__item {
@@ -1713,6 +1720,11 @@ body.noscroll {
 
   .hello {
     padding-top: 252px;
+
+    &__prew {
+      display: flex;
+      align-items: end;
+    }
   }
 
   .gallery {
@@ -1891,6 +1903,7 @@ body.noscroll {
     }
 
     &__prew {
+      align-items: normal;
       width: 200px;
 
       img {
@@ -2086,7 +2099,7 @@ body.noscroll {
 
 @media (max-width: 540px) {
 
-  .header__logo img {
+  .header__logo {
     width: 34px;
     height: 40px;
   }
@@ -2198,6 +2211,7 @@ body.noscroll {
   .hamb {
     &__popup {
       width: 100%;
+      height: 100vh;
       padding: 104px 88px 252px 28px;
     }
   }

@@ -32,7 +32,6 @@ function closeOnClick() {
   hamb.classList.remove("active");
   body.classList.remove("noscroll");
   document.body.style.top = `-${window.scrollY}0px`;
-
 }
 
 // popup оставить заявку
@@ -51,17 +50,16 @@ openModals.addEventListener("click", popupOpen);
 close.addEventListener("click", popupClose);
 overlay.addEventListener("click", popupClose);
 
-function popupOpen(q) {
+function popupOpen(e) {
   modal.classList.add('open');
   overlay.classList.add('open');
-  bodyPopup.classList.add('noscroll');
-  document.body.style.top = `-${window.scrollY}0px`;
+  bodyPopup.style.overflow = 'hidden'
 }
 
-function popupClose(q) {
+function popupClose(e) {
   modal.classList.remove('open');
   overlay.classList.remove('open');
-  bodyPopup.classList.remove('noscroll');
+  bodyPopup.style.overflow = 'scroll'
 }
 
 //Плавная прокрутка до нужной секции
